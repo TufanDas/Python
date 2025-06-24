@@ -22,4 +22,3 @@ temps = [72,75,71,74]
 
 # frozenset --> Immutable version of a set
 #              - frozenset([1, 2, 3])
-
