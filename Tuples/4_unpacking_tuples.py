@@ -15,14 +15,8 @@ print(q)
 print(w) # 2,3,4,5,6,7,8 assigning to the variable w in list format
 print(e)
 print(r)
-9
-0
 
-
-
-
-
-
+"""unpacking data tuple"""
 data = ("jhon", 30, "Manager", 5000, "New York")
 name, age, designation, salary, city = data
 print(name) #  jhon
