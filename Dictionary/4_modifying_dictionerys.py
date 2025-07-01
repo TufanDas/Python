@@ -36,7 +36,6 @@ syntax : dict1.update(dict2)
 # dict1: The dictioney to be updated
 # dict2: The dictionery (or key value iterable) provoding updated
 '''
-
 profile = {"name":"agasgsg","age":23, "city":"sbdsghsdhg"}
 updates = {"name" : "Tufan Das", "city" : "madarihat"}
 profile.update(updates)
