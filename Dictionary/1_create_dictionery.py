@@ -22,10 +22,10 @@ print(my_dictionery)
 d = dict([("apple","red"),("banana","yellow"),("kiwi","brown")])
 print(d["apple"]) # red
 
-""" integers as key of the dictionery """
+""" integers as key of the dictionery  | Immutable and hashable"""
 my_dict_int_key = {1 : "one", 200 : "two hundred", 0 : "zero"}
 
-""" float as key of the dictionery """
+""" float as key of the dictionery  | Immutable and hashable"""
 my_dict_float_key = {
     1.99: "Apple",
     0.99: "Banana",
@@ -33,17 +33,17 @@ my_dict_float_key = {
 }
 print(my_dict_float_key[1.99])  # Output: Apple
 
-""" boolean as key """
+""" boolean as key | Immutable and hashable """
 my_dict_bool_key = {True: "This is a true value", False:"This is a false value"}
 
-""" tuple as key of the dictionery """
+""" tuple as key of the dictionery | Immutable and hashable """
 my_dict_tuple_key = {
     (23,54):"twenty three | fifty four",
     (73,99): "seventy three | ninty nine"
 }
 print(my_dict_tuple_key[(23,54)])
 
-""" mix of different key types in a dictionary """
+""" mix of different key types in a dictionary | Immutable and hashable """
 my_dict_mixed_key = {
     1:"one",
     "two":2,
